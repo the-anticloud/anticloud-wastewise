@@ -1,0 +1,159 @@
+{
+ "bomFormat": "CycloneDX",
+ "specVersion": "1.5",
+ "serialNumber": "urn:uuid:e5fc2597-503e-5ba1-a0a8-52568f486049",
+ "version": 1,
+ "metadata": {
+  "timestamp": "2026-10-06T17:40:21Z",
+  "component": {
+   "type": "application",
+   "name": "WASTEWISE",
+   "version": "83b357604d34",
+   "bom-ref": "pkg:generic/anticloud/WASTEWISE@83b357604d34",
+   "purl": "pkg:generic/anticloud/WASTEWISE@83b357604d34",
+   "licenses": [
+    {
+     "license": {
+      "id": "MIT"
+     }
+    }
+   ]
+  },
+  "properties": [
+   {
+    "name": "anticloud:source-commit",
+    "value": "null"
+   },
+   {
+    "name": "anticloud:source-url",
+    "value": "https://github.com/the-anticloud/OPENMRS_CORE.git"
+   },
+   {
+    "name": "anticloud:tier",
+    "value": "tier-agent"
+   }
+  ]
+ },
+ "components": [
+  {
+   "type": "library",
+   "name": "@google/generative-ai",
+   "version": "^0.21.0",
+   "purl": "pkg:npm/@google/generative-ai@^0.21.0",
+   "bom-ref": "npm/@google/generative-ai@^0.21.0"
+  },
+  {
+   "type": "library",
+   "name": "dotenv",
+   "version": "^16.4.7",
+   "purl": "pkg:npm/dotenv@^16.4.7",
+   "bom-ref": "npm/dotenv@^16.4.7"
+  },
+  {
+   "type": "library",
+   "name": "firebase",
+   "version": "^11.2.0",
+   "purl": "pkg:npm/firebase@^11.2.0",
+   "bom-ref": "npm/firebase@^11.2.0"
+  },
+  {
+   "type": "library",
+   "name": "firebase-admin",
+   "version": "^13.1.0",
+   "purl": "pkg:npm/firebase-admin@^13.1.0",
+   "bom-ref": "npm/firebase-admin@^13.1.0"
+  },
+  {
+   "type": "library",
+   "name": "framer-motion",
+   "version": "^12.0.11",
+   "purl": "pkg:npm/framer-motion@^12.0.11",
+   "bom-ref": "npm/framer-motion@^12.0.11"
+  },
+  {
+   "type": "library",
+   "name": "lucide-react",
+   "version": "^0.474.0",
+   "purl": "pkg:npm/lucide-react@^0.474.0",
+   "bom-ref": "npm/lucide-react@^0.474.0"
+  },
+  {
+   "type": "library",
+   "name": "next",
+   "version": "^15.1.5",
+   "purl": "pkg:npm/next@^15.1.5",
+   "bom-ref": "npm/next@^15.1.5"
+  },
+  {
+   "type": "library",
+   "name": "next-auth",
+   "version": "^4.24.11",
+   "purl": "pkg:npm/next-auth@^4.24.11",
+   "bom-ref": "npm/next-auth@^4.24.11"
+  },
+  {
+   "type": "library",
+   "name": "react",
+   "version": "^19.0.0",
+   "purl": "pkg:npm/react@^19.0.0",
+   "bom-ref": "npm/react@^19.0.0"
+  },
+  {
+   "type": "library",
+   "name": "react-dom",
+   "version": "^19.0.0",
+   "purl": "pkg:npm/react-dom@^19.0.0",
+   "bom-ref": "npm/react-dom@^19.0.0"
+  },
+  {
+   "type": "library",
+   "name": "tailwind-scrollbar",
+   "version": "^3.1.0",
+   "purl": "pkg:npm/tailwind-scrollbar@^3.1.0",
+   "bom-ref": "npm/tailwind-scrollbar@^3.1.0"
+  },
+  {
+   "type": "library",
+   "name": "zod",
+   "version": "^3.24.1",
+   "purl": "pkg:npm/zod@^3.24.1",
+   "bom-ref": "npm/zod@^3.24.1"
+  },
+  {
+   "type": "library",
+   "name": "@eslint/eslintrc",
+   "version": "^3",
+   "purl": "pkg:npm/@eslint/eslintrc@^3",
+   "bom-ref": "npm/@eslint/eslintrc@^3"
+  },
+  {
+   "type": "library",
+   "name": "eslint",
+   "version": "^9",
+   "purl": "pkg:npm/eslint@^9",
+   "bom-ref": "npm/eslint@^9"
+  },
+  {
+   "type": "library",
+   "name": "eslint-config-next",
+   "version": "15.1.5",
+   "purl": "pkg:npm/eslint-config-next@15.1.5",
+   "bom-ref": "npm/eslint-config-next@15.1.5"
+  },
+  {
+   "type": "library",
+   "name": "postcss",
+   "version": "^8",
+   "purl": "pkg:npm/postcss@^8",
+   "bom-ref": "npm/postcss@^8"
+  },
+  {
+   "type": "library",
+   "name": "tailwindcss",
+   "version": "^3.4.1",
+   "purl": "pkg:npm/tailwindcss@^3.4.1",
+   "bom-ref": "npm/tailwindcss@^3.4.1"
+  }
+ ],
+ "sha_unverified": true
+}
