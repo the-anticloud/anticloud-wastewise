@@ -1,0 +1,21 @@
+{
+ "framework": "18_DORA",
+ "title": "EU DORA (Regulation 2022/2554)",
+ "project": "WASTEWISE",
+ "basis": [
+  {
+   "check": "14_iso_27001",
+   "status": "PASS",
+   "observed": "{\"authority\": \"ISO/IEC\", \"control_ids\": [\"5.1.1\", \"5.1.2\", \""
+  },
+  {
+   "check": "13_pci_dss",
+   "status": "PASS",
+   "observed": "{\"authority\": \"PCI SSC\", \"control_ids\": [\"1.1.1\", \"1.2.1\", \""
+  }
+ ],
+ "verdict": "CONTROLS EVIDENCED \u2014 all basis checks PASS",
+ "pax_provenance": "Run ID loiskleinner/pax-benchmark-runner v3, 2026-10-02, Kaggle T4 x2 (2x 16GB VRAM), Ubuntu 22.04, Python 3.12. These are PAX L5 Narrow L2 General 27B model-level results \u2014 shared model component, not this project's verdict.",
+ "bench_sha3": "3ba7de11c1cff36ba76d0024e7309935bf303e737b051d22dc129b57638f6b8a",
+ "register_sha3": "b565f508d8021796d60590cc5266844c106d5acad97c43e75ec61c3125255a7a"
+}

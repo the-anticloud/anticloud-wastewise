@@ -1,0 +1,16 @@
+{
+ "framework": "23_SBOM",
+ "title": "NTIA SBOM minimum elements / CycloneDX 1.5",
+ "project": "WASTEWISE",
+ "basis": [
+  {
+   "check": "04_sbom_cyclonedx",
+   "status": "PASS",
+   "observed": "{\"components\": 272, \"components_with_licence\": 265, \"compone"
+  }
+ ],
+ "verdict": "CONTROLS EVIDENCED \u2014 all basis checks PASS",
+ "pax_provenance": "Run ID loiskleinner/pax-benchmark-runner v3, 2026-10-02, Kaggle T4 x2 (2x 16GB VRAM), Ubuntu 22.04, Python 3.12. These are PAX L5 Narrow L2 General 27B model-level results \u2014 shared model component, not this project's verdict.",
+ "bench_sha3": "3ba7de11c1cff36ba76d0024e7309935bf303e737b051d22dc129b57638f6b8a",
+ "register_sha3": "b565f508d8021796d60590cc5266844c106d5acad97c43e75ec61c3125255a7a"
+}
